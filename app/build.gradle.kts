@@ -1,6 +1,13 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+}
+
+val keystoreProps = Properties().apply {
+    val f = rootProject.file("keystore.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
 }
 
 android {
@@ -11,8 +18,17 @@ android {
         applicationId = "com.mohsin.portfolio"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = rootProject.file(keystoreProps.getProperty("storeFile", "mohsin-release.jks"))
+            storePassword = keystoreProps.getProperty("storePassword", "mohsin2026")
+            keyAlias = keystoreProps.getProperty("keyAlias", "mohsin")
+            keyPassword = keystoreProps.getProperty("keyPassword", "mohsin2026")
+        }
     }
 
     buildTypes {
@@ -23,6 +39,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 
