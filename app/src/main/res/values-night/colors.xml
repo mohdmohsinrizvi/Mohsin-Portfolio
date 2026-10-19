@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds & surfaces -->
+    <color name="colorBackground">#08090B</color>
+    <color name="colorSurface">#111215</color>
+    <color name="colorSurfaceSecondary">#191B1F</color>
+    <color name="colorLaunchBackground">#08090B</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#F5F4F0</color>
+    <color name="colorTextSecondary">#98999E</color>
+    <color name="colorTextTertiary">#6F7075</color>
+
+    <!-- Lines -->
+    <color name="colorDivider">#292B30</color>
+    <color name="colorOutline">#34363C</color>
+
+    <!-- Accent -->
+    <color name="colorAccent">#C8BDA8</color>
+    <color name="colorAccentMuted">#857C6C</color>
+    <color name="colorAccentBright">#E2D5B4</color>
+    <color name="colorAccentGold">#D6C6A3</color>
+    <color name="colorOnAccent">#08090B</color>
+
+    <!-- Structure -->
+    <color name="colorCardStroke">#262A33</color>
+    <color name="colorNavActive">#D6C6A3</color>
+
+    <!-- Misc -->
+    <color name="colorScrim">#80000000</color>
+    <color name="colorNavInactive">#6F7075</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MOHSIN</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_work">Work</string>
+    <string name="nav_journey">Journey</string>
+    <string name="nav_connect">Connect</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_view_work">Explore My Work</string>
+    <string name="action_connect">Connect With Me</string>
+    <string name="action_read_profile">Full Profile</string>
+    <string name="action_view_all">View All</string>
+    <string name="action_view">View</string>
+    <string name="action_copy_email">Copy Email</string>
+    <string name="action_share_profile">Share Profile</string>
+    <string name="action_view_resume">View Résumé</string>
+    <string name="action_share_resume">Share Résumé</string>
+    <string name="action_open_externally">Open in Another App</string>
+
+    <string name="theme_title">Appearance</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_dark">Always dark</string>
+    <string name="theme_light">Always light</string>
+
+    <string name="copied">Copied to clipboard</string>
+    <string name="resume_unavailable">Résumé could not be opened.</string>
+    <string name="page_of">%1$d / %2$d</string>
+    <string name="hero_location_label">LUCKNOW, INDIA</string>
+</resources>

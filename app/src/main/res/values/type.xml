@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Display: editorial serif -->
+    <style name="TextAppearance.Mohsin.Display" parent="">
+        <item name="android:fontFamily">@font/cormorant_garamond</item>
+        <item name="android:fontVariationSettings">\'wght\' 500</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.DisplaySmall" parent="TextAppearance.Mohsin.Display">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <!-- Editorial heading: serif -->
+    <style name="TextAppearance.Mohsin.Editorial" parent="">
+        <item name="android:fontFamily">@font/cormorant_garamond</item>
+        <item name="android:fontVariationSettings">\'wght\' 500</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Functional headings: sans -->
+    <style name="TextAppearance.Mohsin.H1" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 600</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.H2" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 600</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.SectionTitle" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 600</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.Body" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 400</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.BodySecondary" parent="TextAppearance.Mohsin.Body">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.BodySmall" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 400</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.Caption" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 400</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <!-- Mono labels -->
+    <style name="TextAppearance.Mohsin.Mono" parent="">
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:fontVariationSettings">\'wght\' 500</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.MonoAccent" parent="TextAppearance.Mohsin.Mono">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.MonoPrimary" parent="TextAppearance.Mohsin.Mono">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.Button" parent="">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontVariationSettings">\'wght\' 600</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.Mohsin.Metric" parent="">
+        <item name="android:fontFamily">@font/cormorant_garamond</item>
+        <item name="android:fontVariationSettings">\'wght\' 600</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+</resources>
